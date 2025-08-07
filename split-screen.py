@@ -90,25 +90,14 @@ log(f'which_screen: {which_screen}, percentX: {percentX}, percentY: {percentY}, 
 
 target_bounds = screen_bounds[which_screen]
 log(f'current_bounds: {current_bounds}')
+log(f'percentX: {percentX}, percentY: {percentY}, percentW: {percentW}, percentH: {percentH}')
 log(f'target screen_bounds: {target_bounds}')
 # calc real value
 new_bounds = {}
 new_bounds['x'] = int(target_bounds['x'] + target_bounds['width'] * percentX)
-new_bounds['y'] = int(target_bounds['y'] + target_bounds['height'] * percentX)
+new_bounds['y'] = int(target_bounds['y'] + target_bounds['height'] * percentY)
 new_bounds['width'] = int(target_bounds['width'] * percentW)
 new_bounds['height'] = int(target_bounds['height'] * percentH)
 log(f'new_bounds: {new_bounds}')
 
-move_window = 'move_window'
-if current_bounds['x'] >= target_bounds['x']:
-    log(f"current_bounds['x'] >= target_bounds['x']: {current_bounds['x']} >= {target_bounds['x']}")
-if current_bounds['x'] <= target_bounds['x'] + target_bounds['width']:
-    log(f"current_bounds['x'] <= target_bounds['x'] + target_bounds['width']: {current_bounds['x']} <= {target_bounds['x']} + {target_bounds['width']}")
-if current_bounds['y'] >= target_bounds['y']:
-    log(f"current_bounds['y'] >= target_bounds['y']: {current_bounds['y']} >= {target_bounds['y']}")
-if current_bounds['y'] <= target_bounds['y'] + target_bounds['height']:
-    log(f"current_bounds['y'] <= target_bounds['y'] + target_bounds['height']: {current_bounds['y']} <= {target_bounds['y']} + {target_bounds['height']}")
-if current_bounds['x'] >= target_bounds['x'] and current_bounds['x'] <= target_bounds['x'] + target_bounds['width'] and current_bounds['y'] >= target_bounds['y'] and current_bounds['y'] <= target_bounds['y'] + target_bounds['height']:
-    move_window = 'dont_move'
-
-print(f"{new_bounds['x']} {new_bounds['y']} {new_bounds['width']} {new_bounds['height']} {move_window}")
+print(f"{new_bounds['x']} {new_bounds['y']} {new_bounds['width']} {new_bounds['height']}")

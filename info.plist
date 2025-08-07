@@ -23,46 +23,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>27F08F55-2D5F-4E53-BF77-27878302C6D8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>84A1C486-DF9F-495C-85BB-F32412E69DA9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>3D35753B-4D9D-4419-8807-FA6A73A8035A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>27F08F55-2D5F-4E53-BF77-27878302C6D8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>A6D90818-44FC-4A25-BA55-FB1562FE3EA4</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0C184706-047A-4D86-BF44-BAA854652F08</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>3146429E-E982-459C-9F03-46287E68875A</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>41936F3B-398F-42BF-956D-645701C2B0E8</key>
 		<array>
 			<dict>
@@ -76,11 +36,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>5000C6EF-CACC-4EC8-89F6-12A780FD85E0</key>
+		<key>6405E566-9A4F-4583-8606-BFE10CE5F24A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>85D4F0BC-7BB0-40B2-81D6-035C00517FD3</string>
+				<string>09903F7B-E47F-47EE-84D5-6F1F5952CF38</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -102,17 +62,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>844DB6D7-54D1-48B4-BB99-F1F62D3CB304</key>
-		<array/>
-		<key>84A1C486-DF9F-495C-85BB-F32412E69DA9</key>
-		<array/>
-		<key>85D4F0BC-7BB0-40B2-81D6-035C00517FD3</key>
-		<array/>
 		<key>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3D35753B-4D9D-4419-8807-FA6A73A8035A</string>
+				<string>81771F1A-9816-44C5-874A-0D81A1757C64</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -134,13 +88,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DCDCCFEF-47C6-4DB6-9DBA-4351F60B95E6</key>
-		<array/>
-		<key>E3A00973-AF33-448E-AC1C-7141F8D4F97A</key>
+		<key>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6D82340D-F50C-4857-B445-A499F1C9891F</string>
+				<string>66120B59-F8E2-44BD-AA30-B0506C782F74</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -149,11 +101,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>EA96B5ED-2DC9-4B22-BAAD-822B5D2C1BA2</key>
+		<key>E3A00973-AF33-448E-AC1C-7141F8D4F97A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>844DB6D7-54D1-48B4-BB99-F1F62D3CB304</string>
+				<string>6D82340D-F50C-4857-B445-A499F1C9891F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -188,19 +140,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>FCDC7026-4BA5-49B0-97DD-8E546F2D882E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DCDCCFEF-47C6-4DB6-9DBA-4351F60B95E6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>leiguoguo</string>
@@ -212,120 +151,6 @@
 	<string>SplitScreen</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>mc</string>
-				<key>subtext</key>
-				<string>move current x y</string>
-				<key>text</key>
-				<string>move current x y</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>5000C6EF-CACC-4EC8-89F6-12A780FD85E0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>move current {query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>85D4F0BC-7BB0-40B2-81D6-035C00517FD3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>mo</string>
-				<key>subtext</key>
-				<string>move other x y</string>
-				<key>text</key>
-				<string>move other x y</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>FCDC7026-4BA5-49B0-97DD-8E546F2D882E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>move other {query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>DCDCCFEF-47C6-4DB6-9DBA-4351F60B95E6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>resize</string>
-				<key>subtext</key>
-				<string>reisze widht height</string>
-				<key>text</key>
-				<string>reisze widht height</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>EA96B5ED-2DC9-4B22-BAAD-822B5D2C1BA2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>resize current {query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>844DB6D7-54D1-48B4-BB99-F1F62D3CB304</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -422,48 +247,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>target_screen</key>
-					<string>next</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.screen.change</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>27F08F55-2D5F-4E53-BF77-27878302C6D8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>height</key>
-					<string>{var:bounds4}</string>
-					<key>width</key>
-					<string>{var:bounds3}</string>
-					<key>x</key>
-					<string>{var:bounds1}</string>
-					<key>y</key>
-					<string>{var:bounds2}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.custom</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>84A1C486-DF9F-495C-85BB-F32412E69DA9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -513,6 +296,44 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>41936F3B-398F-42BF-956D-645701C2B0E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>osascript reset.scpt</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>81771F1A-9816-44C5-874A-0D81A1757C64</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -536,61 +357,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict/>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>41936F3B-398F-42BF-956D-645701C2B0E8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:bounds5}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>move_window</string>
-						<key>outputlabel</key>
-						<string>move_window</string>
-						<key>uid</key>
-						<string>A6D90818-44FC-4A25-BA55-FB1562FE3EA4</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:bounds5}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>dont_move</string>
-						<key>outputlabel</key>
-						<string>dont_move</string>
-						<key>uid</key>
-						<string>3146429E-E982-459C-9F03-46287E68875A</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
+				<key>delimiter</key>
+				<string> </string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
 				<true/>
+				<key>variableprefix</key>
+				<string>bounds</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
-			<string>3D35753B-4D9D-4419-8807-FA6A73A8035A</string>
+			<string>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -631,51 +412,6 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>F27558DF-F128-4581-9BA5-BACDE1055CCF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>delimiter</key>
-				<string> </string>
-				<key>discardemptyarguments</key>
-				<false/>
-				<key>outputas</key>
-				<integer>0</integer>
-				<key>trimarguments</key>
-				<true/>
-				<key>variableprefix</key>
-				<string>bounds</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.split</string>
-			<key>uid</key>
-			<string>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>height</key>
-					<string>{var:bounds4}</string>
-					<key>width</key>
-					<string>{var:bounds3}</string>
-					<key>x</key>
-					<string>{var:bounds1}</string>
-					<key>y</key>
-					<string>{var:bounds2}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.custom</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>0C184706-047A-4D86-BF44-BAA854652F08</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -728,6 +464,84 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>half-left</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>09903F7B-E47F-47EE-84D5-6F1F5952CF38</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>pleft</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6405E566-9A4F-4583-8606-BFE10CE5F24A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>pright</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>half-right</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>66120B59-F8E2-44BD-AA30-B0506C782F74</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Split focused window in screen</string>
@@ -736,142 +550,107 @@
 		<key>036DE2BA-9893-47B9-996C-3A5E3DF8FB80</key>
 		<dict>
 			<key>xpos</key>
-			<real>390</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>1390</real>
+			<real>770</real>
 		</dict>
 		<key>03CCC218-95A5-40AD-913C-4F66839CE1C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>390</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>1935</real>
+			<real>1315</real>
 		</dict>
-		<key>0C184706-047A-4D86-BF44-BAA854652F08</key>
+		<key>09903F7B-E47F-47EE-84D5-6F1F5952CF38</key>
 		<dict>
 			<key>xpos</key>
-			<real>1395</real>
+			<real>545</real>
 			<key>ypos</key>
-			<real>1895</real>
-		</dict>
-		<key>27F08F55-2D5F-4E53-BF77-27878302C6D8</key>
-		<dict>
-			<key>xpos</key>
-			<real>1390</real>
-			<key>ypos</key>
-			<real>1705</real>
-		</dict>
-		<key>3D35753B-4D9D-4419-8807-FA6A73A8035A</key>
-		<dict>
-			<key>xpos</key>
-			<real>1245</real>
-			<key>ypos</key>
-			<real>1840</real>
+			<real>1465</real>
 		</dict>
 		<key>41936F3B-398F-42BF-956D-645701C2B0E8</key>
 		<dict>
 			<key>xpos</key>
-			<real>680</real>
+			<real>615</real>
 			<key>ypos</key>
-			<real>1820</real>
+			<real>1200</real>
 		</dict>
-		<key>5000C6EF-CACC-4EC8-89F6-12A780FD85E0</key>
+		<key>6405E566-9A4F-4583-8606-BFE10CE5F24A</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>330</real>
 			<key>ypos</key>
-			<real>135</real>
+			<real>1465</real>
+		</dict>
+		<key>66120B59-F8E2-44BD-AA30-B0506C782F74</key>
+		<dict>
+			<key>xpos</key>
+			<real>545</real>
+			<key>ypos</key>
+			<real>1605</real>
 		</dict>
 		<key>6D82340D-F50C-4857-B445-A499F1C9891F</key>
 		<dict>
 			<key>xpos</key>
-			<real>590</real>
+			<real>525</real>
 			<key>ypos</key>
-			<real>1850</real>
+			<real>1230</real>
 		</dict>
-		<key>844DB6D7-54D1-48B4-BB99-F1F62D3CB304</key>
+		<key>81771F1A-9816-44C5-874A-0D81A1757C64</key>
 		<dict>
 			<key>xpos</key>
-			<real>690</real>
+			<real>1175</real>
 			<key>ypos</key>
-			<real>405</real>
-		</dict>
-		<key>84A1C486-DF9F-495C-85BB-F32412E69DA9</key>
-		<dict>
-			<key>xpos</key>
-			<real>1565</real>
-			<key>ypos</key>
-			<real>1705</real>
-		</dict>
-		<key>85D4F0BC-7BB0-40B2-81D6-035C00517FD3</key>
-		<dict>
-			<key>xpos</key>
-			<real>690</real>
-			<key>ypos</key>
-			<real>165</real>
+			<real>1200</real>
 		</dict>
 		<key>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</key>
 		<dict>
 			<key>xpos</key>
-			<real>1150</real>
+			<real>1085</real>
 			<key>ypos</key>
-			<real>1850</real>
+			<real>1230</real>
 		</dict>
 		<key>C55AD827-A76D-4FB3-A4F7-B2050F79BB7A</key>
 		<dict>
 			<key>xpos</key>
-			<real>965</real>
+			<real>900</real>
 			<key>ypos</key>
-			<real>1820</real>
+			<real>1200</real>
 		</dict>
 		<key>C5D8616D-1AD5-4DAC-BFF0-2780F6B4BB39</key>
 		<dict>
 			<key>xpos</key>
-			<real>670</real>
+			<real>605</real>
 			<key>ypos</key>
-			<real>1550</real>
+			<real>930</real>
 		</dict>
-		<key>DCDCCFEF-47C6-4DB6-9DBA-4351F60B95E6</key>
+		<key>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</key>
 		<dict>
 			<key>xpos</key>
-			<real>690</real>
+			<real>330</real>
 			<key>ypos</key>
-			<real>280</real>
+			<real>1605</real>
 		</dict>
 		<key>E3A00973-AF33-448E-AC1C-7141F8D4F97A</key>
 		<dict>
 			<key>xpos</key>
-			<real>390</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>1715</real>
-		</dict>
-		<key>EA96B5ED-2DC9-4B22-BAAD-822B5D2C1BA2</key>
-		<dict>
-			<key>xpos</key>
-			<real>485</real>
-			<key>ypos</key>
-			<real>375</real>
+			<real>1095</real>
 		</dict>
 		<key>F27558DF-F128-4581-9BA5-BACDE1055CCF</key>
 		<dict>
 			<key>xpos</key>
-			<real>855</real>
+			<real>790</real>
 			<key>ypos</key>
-			<real>1850</real>
+			<real>1230</real>
 		</dict>
 		<key>F313644E-9D5D-48D9-BD4C-C0074F8B69B5</key>
 		<dict>
 			<key>xpos</key>
-			<real>390</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>1550</real>
-		</dict>
-		<key>FCDC7026-4BA5-49B0-97DD-8E546F2D882E</key>
-		<dict>
-			<key>xpos</key>
-			<real>485</real>
-			<key>ypos</key>
-			<real>250</real>
+			<real>930</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
