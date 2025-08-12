@@ -1,1 +1,1 @@
-# wait for a moment
+![图片描述](resource/README.png)
