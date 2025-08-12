@@ -36,19 +36,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6405E566-9A4F-4583-8606-BFE10CE5F24A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>09903F7B-E47F-47EE-84D5-6F1F5952CF38</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>6D82340D-F50C-4857-B445-A499F1C9891F</key>
 		<array>
 			<dict>
@@ -62,6 +49,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>81771F1A-9816-44C5-874A-0D81A1757C64</key>
+		<array/>
 		<key>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</key>
 		<array>
 			<dict>
@@ -80,19 +69,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>66120B59-F8E2-44BD-AA30-B0506C782F74</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -203,6 +179,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>pdef</string>
+				<key>subtext</key>
+				<string>pdef name x y w h</string>
+				<key>text</key>
+				<string>defined new split-screen config</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F313644E-9D5D-48D9-BD4C-C0074F8B69B5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -222,27 +219,6 @@
 			<string>C5D8616D-1AD5-4DAC-BFF0-2780F6B4BB39</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>pdef</string>
-				<key>subtext</key>
-				<string>pdef name x y w h</string>
-				<key>text</key>
-				<string>defined new split-screen config</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>F313644E-9D5D-48D9-BD4C-C0074F8B69B5</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -296,21 +272,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict/>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>41936F3B-398F-42BF-956D-645701C2B0E8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -353,6 +314,21 @@
 			<string>C55AD827-A76D-4FB3-A4F7-B2050F79BB7A</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>41936F3B-398F-42BF-956D-645701C2B0E8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -464,84 +440,6 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>half-left</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>09903F7B-E47F-47EE-84D5-6F1F5952CF38</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>pleft</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string></string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6405E566-9A4F-4583-8606-BFE10CE5F24A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>pright</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string></string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>half-right</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>66120B59-F8E2-44BD-AA30-B0506C782F74</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Split focused window in screen</string>
@@ -552,105 +450,77 @@
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>505</real>
 		</dict>
 		<key>03CCC218-95A5-40AD-913C-4F66839CE1C1</key>
 		<dict>
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
-			<real>1315</real>
-		</dict>
-		<key>09903F7B-E47F-47EE-84D5-6F1F5952CF38</key>
-		<dict>
-			<key>xpos</key>
-			<real>545</real>
-			<key>ypos</key>
-			<real>1465</real>
+			<real>1050</real>
 		</dict>
 		<key>41936F3B-398F-42BF-956D-645701C2B0E8</key>
 		<dict>
 			<key>xpos</key>
 			<real>615</real>
 			<key>ypos</key>
-			<real>1200</real>
-		</dict>
-		<key>6405E566-9A4F-4583-8606-BFE10CE5F24A</key>
-		<dict>
-			<key>xpos</key>
-			<real>330</real>
-			<key>ypos</key>
-			<real>1465</real>
-		</dict>
-		<key>66120B59-F8E2-44BD-AA30-B0506C782F74</key>
-		<dict>
-			<key>xpos</key>
-			<real>545</real>
-			<key>ypos</key>
-			<real>1605</real>
+			<real>935</real>
 		</dict>
 		<key>6D82340D-F50C-4857-B445-A499F1C9891F</key>
 		<dict>
 			<key>xpos</key>
 			<real>525</real>
 			<key>ypos</key>
-			<real>1230</real>
+			<real>965</real>
 		</dict>
 		<key>81771F1A-9816-44C5-874A-0D81A1757C64</key>
 		<dict>
 			<key>xpos</key>
 			<real>1175</real>
 			<key>ypos</key>
-			<real>1200</real>
+			<real>935</real>
 		</dict>
 		<key>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</key>
 		<dict>
 			<key>xpos</key>
 			<real>1085</real>
 			<key>ypos</key>
-			<real>1230</real>
+			<real>965</real>
 		</dict>
 		<key>C55AD827-A76D-4FB3-A4F7-B2050F79BB7A</key>
 		<dict>
 			<key>xpos</key>
 			<real>900</real>
 			<key>ypos</key>
-			<real>1200</real>
+			<real>935</real>
 		</dict>
 		<key>C5D8616D-1AD5-4DAC-BFF0-2780F6B4BB39</key>
 		<dict>
 			<key>xpos</key>
 			<real>605</real>
 			<key>ypos</key>
-			<real>930</real>
-		</dict>
-		<key>D7CEDECA-F6AB-4E9A-9B30-52577D6EC2D8</key>
-		<dict>
-			<key>xpos</key>
-			<real>330</real>
-			<key>ypos</key>
-			<real>1605</real>
+			<real>665</real>
 		</dict>
 		<key>E3A00973-AF33-448E-AC1C-7141F8D4F97A</key>
 		<dict>
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
-			<real>1095</real>
+			<real>830</real>
 		</dict>
 		<key>F27558DF-F128-4581-9BA5-BACDE1055CCF</key>
 		<dict>
 			<key>xpos</key>
 			<real>790</real>
 			<key>ypos</key>
-			<real>1230</real>
+			<real>965</real>
 		</dict>
 		<key>F313644E-9D5D-48D9-BD4C-C0074F8B69B5</key>
 		<dict>
 			<key>xpos</key>
 			<real>325</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>665</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
