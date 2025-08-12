@@ -1,1 +1,6 @@
-![图片描述](resource/README.png)
+# Dependent
+
+- [https://github.com/jakehilborn/displayplacer](https://github.com/jakehilborn/displayplacer)
+
+# Tutorial
+![Tutorial](resource/README.png)
