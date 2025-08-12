@@ -3,7 +3,7 @@ import subprocess
 import json
 import sys
 
-log_fp = open('./split-screen.log', 'w', encoding='utf-8')
+log_fp = open('./bounds.log', 'w', encoding='utf-8')
 def log(content):
     log_fp.write(content + '\n')
 
@@ -30,7 +30,7 @@ def log_all_evn():
 
 def load_config():
     config = {}
-    with open('split-screen.csv', 'r', encoding = 'utf-8') as cfg_fp:
+    with open('bounds.csv', 'r', encoding = 'utf-8') as cfg_fp:
         for line_num, line in enumerate(cfg_fp, 1):
             line = line.strip()
             if not line:
@@ -49,7 +49,7 @@ def load_config():
     return config
 
 def load_screen_bounds(height_of_menubar = 25):
-    resolution_json = simple_command("displayplacer list | awk -f split-screen.awk")
+    resolution_json = simple_command("displayplacer list | awk -f bounds.awk")
     screen_bounds = json.loads(resolution_json)
 
     screen_bounds['main']['y'] += height_of_menubar

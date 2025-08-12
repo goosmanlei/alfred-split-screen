@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.leiguoguo.alfred-splitscreen-workflow</string>
+	<string>com.leiguoguo.alfred-splitscreen</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -155,7 +155,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./split-screen.sh show current {query}</string>
+				<string>./alfred.sh show current {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -205,7 +205,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./split-screen.sh {query}</string>
+				<string>./alfred.sh {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -248,7 +248,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./split-screen.sh show main "{query}"</string>
+				<string>./alfred.sh show main "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -300,7 +300,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>python3 split-screen.py {query}</string>
+				<string>python3 bounds.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -419,7 +419,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./split-screen.sh show dual "{query}"</string>
+				<string>./alfred.sh show dual "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -448,79 +448,79 @@
 		<key>036DE2BA-9893-47B9-996C-3A5E3DF8FB80</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>230</real>
 			<key>ypos</key>
-			<real>505</real>
+			<real>90</real>
 		</dict>
 		<key>03CCC218-95A5-40AD-913C-4F66839CE1C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>230</real>
 			<key>ypos</key>
-			<real>1050</real>
+			<real>635</real>
 		</dict>
 		<key>41936F3B-398F-42BF-956D-645701C2B0E8</key>
 		<dict>
 			<key>xpos</key>
-			<real>615</real>
+			<real>520</real>
 			<key>ypos</key>
-			<real>935</real>
+			<real>520</real>
 		</dict>
 		<key>6D82340D-F50C-4857-B445-A499F1C9891F</key>
 		<dict>
 			<key>xpos</key>
-			<real>525</real>
+			<real>430</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>550</real>
 		</dict>
 		<key>81771F1A-9816-44C5-874A-0D81A1757C64</key>
 		<dict>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1080</real>
 			<key>ypos</key>
-			<real>935</real>
+			<real>520</real>
 		</dict>
 		<key>9B45D2CC-A0DC-4841-ACE4-D7F82315B5EE</key>
 		<dict>
 			<key>xpos</key>
-			<real>1085</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>550</real>
 		</dict>
 		<key>C55AD827-A76D-4FB3-A4F7-B2050F79BB7A</key>
 		<dict>
 			<key>xpos</key>
-			<real>900</real>
+			<real>805</real>
 			<key>ypos</key>
-			<real>935</real>
+			<real>520</real>
 		</dict>
 		<key>C5D8616D-1AD5-4DAC-BFF0-2780F6B4BB39</key>
 		<dict>
 			<key>xpos</key>
-			<real>605</real>
+			<real>510</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>250</real>
 		</dict>
 		<key>E3A00973-AF33-448E-AC1C-7141F8D4F97A</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>230</real>
 			<key>ypos</key>
-			<real>830</real>
+			<real>415</real>
 		</dict>
 		<key>F27558DF-F128-4581-9BA5-BACDE1055CCF</key>
 		<dict>
 			<key>xpos</key>
-			<real>790</real>
+			<real>695</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>550</real>
 		</dict>
 		<key>F313644E-9D5D-48D9-BD4C-C0074F8B69B5</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>230</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>250</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -530,6 +530,6 @@
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/goosman-lei/alfred-splitscreen-workflow</string>
+	<string>https://github.com/goosmanlei/alfred-split-screen</string>
 </dict>
 </plist>

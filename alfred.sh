@@ -1,13 +1,13 @@
 #!/bin/bash
 SCRIPT_PATH=$(dirname "$(realpath ${BASH_SOURCE[0]})")
-CSV_FNAME="${SCRIPT_PATH}/split-screen.csv"
-CSV_TMP_FNAME="${SCRIPT_PATH}/split-screen.csv.tmp"
+CSV_FNAME="${SCRIPT_PATH}/bounds.csv"
+CSV_TMP_FNAME="${SCRIPT_PATH}/bounds.csv.tmp"
 
 if [ "X$1" == "Xshow" ] ; then
 awk -v "showWhere=$2" -v "filterPattern=$3" '
 BEGIN {
-	if (showWhere != "other" && showWhere != "main" && showWhere != "dual") {
-		showWhere = "current"
+	if (showWhere != "main" && showWhere != "dual") {
+		showWhere = "main"
 	}
 	printf("{\"items\": [\n");
     gsub("\\*", ".*", filterPattern);
@@ -44,4 +44,4 @@ END {
     }
 }
 ' "${CSV_FNAME}" > "${CSV_TMP_FNAME}"
-mv "${SCRIPT_PATH}/split-screen.csv.tmp" "${SCRIPT_PATH}/split-screen.csv"
+mv "${CSV_TMP_FNAME}" "${CSV_FNAME}"
